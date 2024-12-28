@@ -1,0 +1,105 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+Egoertzel_calc_registered_v4
+Z0 w1734497720
+Z1 DPx4 ieee 17 fixed_float_types 0 22 JoVc:0L4XeXcaE?c:FVe62
+Z2 DPx4 ieee 17 fixed_generic_pkg 0 22 `=cI_4Mf07Y0RE[dTgE=F2
+Z3 DPx4 ieee 9 fixed_pkg 0 22 6nURH]dUY5@T6S0eLDXJe2
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dC:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim
+Z8 8C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd
+Z9 FC:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd
+l0
+L6
+V@ZTf21aB>Uj_Mh55a[V=31
+!s100 G49@b`Dn@]mj72@CA4IcE3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1734507057
+!i10b 1
+Z12 !s108 1734507056.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd|
+Z14 !s107 C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 27 goertzel_calc_registered_v4 0 22 @ZTf21aB>Uj_Mh55a[V=31
+l46
+L34
+VE4Q0ZBYNG>ozoUOAnjU441
+!s100 H@j:245KHlbSDAgh=g2HF2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Egoertzel_calc_registered_v4_tb
+Z17 w1734434335
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z18 8C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd
+Z19 FC:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd
+l0
+L7
+VBXB1h_RMhJnPN:z52CDj?0
+!s100 KC08c4abz6XcaJD@VN4H10
+R10
+32
+Z20 !s110 1734434911
+!i10b 1
+Z21 !s108 1734434911.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd|
+Z23 !s107 C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd|
+!i113 1
+R15
+R16
+Asim
+Z24 DEx4 work 27 goertzel_calc_registered_v4 0 22 <Xz8zIVS^l^aT:0`aZgo90
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 30 goertzel_calc_registered_v4_tb 0 22 BXB1h_RMhJnPN:z52CDj?0
+l38
+L10
+V3IaW^Wa?mX:BW:G`;;Qm73
+!s100 6>2e9TCIQ]P0lB2A6jORK1
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16

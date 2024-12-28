@@ -1,0 +1,30 @@
+{C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Compiling entity goertzel_calc_registered_v4_tb
+-- Compiling architecture sim of goertzel_calc_registered_v4_tb
+-- Loading entity goertzel_calc_registered_v4
+
+} {} {}} {C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Source Code TA/HDL/GoertzelFilter_registeredV4/sim/goertzel_calc_registered_v4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Compiling entity goertzel_calc_registered_v4
+-- Compiling architecture rtl of goertzel_calc_registered_v4
+
+} {} {}}

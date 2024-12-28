@@ -1,0 +1,80 @@
+-- Quartus Prime VHDL Template
+-- Sum of four multipliers in scan chain mode
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+library ieee_proposed;
+use ieee_proposed.fixed_pkg.all;
+
+entity goertzel_calc_registered_v2 is
+
+	generic
+	(
+        COEFF_INT_BITS : integer := 2;
+        COEFF_FRAC_BITS : integer := 14;
+    
+        Q_INT_BITS : integer    := 11;
+        Q_FRAC_BITS : integer   := 5;
+    
+        X_INT_BITS  : integer   := 2;
+        X_FRAC_BITS : integer   := 14
+	);
+
+	port
+	(
+		clk, ena, rst	: in std_logic;
+		-- Fixed-point format specifier: (sign).(integer).(fraction)
+		x_in				: in sfixed((X_INT_BITS-1) downto -X_FRAC_BITS); -- Format: 1.1.14
+		coeff				: in sfixed((COEFF_INT_BITS-1) downto -COEFF_FRAC_BITS); -- Format: 1.1.14
+		Q0, Q1, Q2		: out sfixed(Q_INT_BITS-1 downto -Q_FRAC_BITS) -- Format: 1.10.5
+	);
+
+end entity;
+
+architecture rtl of goertzel_calc_registered_v2 is
+	-- Three register chain registers
+	signal Q0_reg, Q1_reg, Q2_reg: sfixed(Q_INT_BITS-1 downto -Q_FRAC_BITS);
+	
+	-- input register
+	signal x_reg : sfixed((X_INT_BITS-1) downto -X_FRAC_BITS);
+
+	-- The size is based on the fixed-point designer tools from MATLAB
+	signal coeff_q1 : sfixed (Q_INT_BITS downto -Q_FRAC_BITS+1);
+	signal x_min_q2 : sfixed (Q_INT_BITS-1 downto -Q_FRAC_BITS);
+	signal Q0_next  : sfixed (Q_INT_BITS-1 downto -Q_FRAC_BITS);
+	
+
+begin
+	
+	-- Combinational logic part
+	coeff_q1 <= resize(coeff * Q1_reg, coeff_q1);
+	x_min_q2 <= resize(x_reg - Q2_reg, x_min_q2);
+	Q0_next <= resize(coeff_q1 + x_min_q2, Q0_next);
+	
+	process (clk, rst)
+	begin
+		if rst = '1' then
+			x_reg  <= (others => '0');
+			Q0_reg <= (others => '0');
+			Q1_reg <= (others => '0');
+			Q2_reg <= (others => '0');
+
+		
+		elsif (rising_edge(clk)) then
+			if (ena = '1') then
+				x_reg <= x_in;
+				Q0_reg <= Q0_next;
+				Q1_reg <= Q0_reg;
+				Q2_reg <= Q1_reg;
+				
+			end if;
+		end if;
+	end process;
+	
+	-- Assign output 
+	Q0 <= Q0_reg;
+	Q1 <= Q1_reg;
+	Q2	<=	Q2_reg;
+	
+end rtl;

@@ -1,0 +1,6 @@
+
+State Machine - |goertzel_calc_registered_v4|state_reg
+Name state_reg.update state_reg.get_x state_reg.idle 
+state_reg.idle 0 0 0 
+state_reg.get_x 0 1 1 
+state_reg.update 1 0 1 

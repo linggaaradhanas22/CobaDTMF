@@ -1,0 +1,345 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[-5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[-4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[-3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[-2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[-1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Q0[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[-5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[-4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[-3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[-2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[-1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Q1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[-5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[-4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[-3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[-2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[-1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Q2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-6]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-12]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-11]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-10]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-9]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-7]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-8]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-13]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-14]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-14]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-13]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-12]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-11]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-10]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-9]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-8]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-7]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-6]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-5]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-4]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-3]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-2]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[-1]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[0]",
+					"strict" : false
+				},
+				{
+					"name" : "coeff[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-5]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-1]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-2]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-3]",
+					"strict" : false
+				},
+				{
+					"name" : "x_in[-4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
