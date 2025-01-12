@@ -152,6 +152,8 @@ begin
             Q1_squared  <= (others => '0');
             Q2_squared  <= (others => '0');
             coeff_Q1_Q2 <= (others => '0'); 
+            Q1_squared_plus_Q2_squared <= (others => '0');
+            power_fix   <= (others => '0');
 
             -- Input register reset value
             DTMF_sampled <= (others => '0');
@@ -227,6 +229,24 @@ begin
                     if out_valid = '1' and out_ready = '1' then
                         state <= IDLE;
                         out_valid <= '0';
+                        -- Delay register reset value
+                        Q0_reg <= (others => '0');
+                        Q1_reg <= (others => '0');
+                        Q2_reg <= (others => '0');
+
+                        -- Temp register reset value
+                        Q1_squared  <= (others => '0');
+                        Q2_squared  <= (others => '0');
+                        coeff_Q1_Q2 <= (others => '0'); 
+                        Q1_squared_plus_Q2_squared <= (others => '0');
+                        power_fix   <= (others => '0');
+
+                        -- Input register reset value
+                        DTMF_sampled <= (others => '0');
+
+                        -- Intermediate register reset value
+                        coeff_Q1 <= (others => '0');
+                        x_min_Q2 <= (others => '0');
                     end if;
             end case;
         end if;  
